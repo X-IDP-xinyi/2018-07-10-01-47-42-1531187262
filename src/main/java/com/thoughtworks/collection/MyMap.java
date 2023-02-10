@@ -37,11 +37,8 @@ public class MyMap {
             if (n<26){
                 temp = lettersList.get(n-1);
                 newList.add(temp);
-            }else if(n%26 ==0){
-                temp = lettersList.get((int) Math.ceil(n/26.0)-2) + lettersList.get(n-27);
-                newList.add(temp);
             }else{
-                temp = lettersList.get((int) Math.ceil(n/26.0)-1) + lettersList.get(n-27);
+                temp = lettersList.get((int) Math.ceil(n/26.0)-2) + lettersList.get(n-27);
                 newList.add(temp);
             }
         }
