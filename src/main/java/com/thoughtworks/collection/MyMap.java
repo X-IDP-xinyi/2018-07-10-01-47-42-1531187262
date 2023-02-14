@@ -27,6 +27,7 @@ public class MyMap {
     }
 
     public List<String> mapLetters() {
+        //What if number is 26*26*26*26?
         ArrayList<String> lettersList = new ArrayList<>();
         ArrayList<String> newList = new ArrayList<>();
         lettersList.addAll(Arrays.asList(letters));
